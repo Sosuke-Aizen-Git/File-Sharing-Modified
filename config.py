@@ -13,32 +13,32 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7295673972:AAHy6HVnSlEOx78vTp01rJcBPLkY7ddSirc")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "20420188"))
+APP_ID = int(os.environ.get("APP_ID", "28257714"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "ac372bd945f5773afe0b714c6429039b")
+API_HASH = os.environ.get("API_HASH", "698420b277440b6d1bea540b301a33ce")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002121888464"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002014899669"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "5743248220"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "1214348787"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://itsintrovert07:sanemibot@cluster0.zd1nrbm.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://niksharma92297:frwd@cluster0.72m0b.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = os.environ.get("DATABASE_NAME", "sahil")
 
 #force sub channel id, if you want enable force sub
-FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002360152411"))
+FORCESUB_CHANNEL = int(os.environ.get("FORCESUB_CHANNEL", "-1002032097452"))
 FORCESUB_CHANNEL2 = int(os.environ.get("FORCESUB_CHANNEL2", "-1002004600395"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
-START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/f803e098ad3a03f542908.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/9550032a25a44b61ac017.jpg")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/geW.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/gtk.jpg")
 
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Animes_Station\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻 Developed by <a href=https://t.me/living_being_bot>अजनबी</a></b>"
 
